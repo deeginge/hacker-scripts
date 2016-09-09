@@ -11,7 +11,7 @@ public class FuckingCoffee{
     private static int DELAY = 24;
     
     public static void main(String[] args)throws Exception{
-        for(int i =  1; i< args.length ; i++){
+        for(int i =  0; i< args.length ; i++){
             if(!args[i].contains(MY_USERNAME)){
                 return;
             }
